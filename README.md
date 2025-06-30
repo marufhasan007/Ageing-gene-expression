@@ -60,4 +60,3 @@ Interested in molecular aging, bioinformatics, and translational health research
 
 License
 MIT License – use freely with citation.
-![image](https://github.com/user-attachments/assets/6daf6d87-94ed-4603-8e13-f40f38ea70c4)
