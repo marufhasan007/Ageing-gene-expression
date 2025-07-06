@@ -83,9 +83,7 @@ source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
 
 ## Purpose
 
-This project was developed in the context of my application to the  
-**Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA)**  
-at **University Medicine Rostock**, to demonstrate both technical competence and genuine interest in **aging and longevity research** using bioinformatics and AI.
+This project was developed in the context of my application to demonstrate both technical competence and genuine interest in **aging and longevity research** using bioinformatics and AI.
 
 ---
 
@@ -95,7 +93,3 @@ at **University Medicine Rostock**, to demonstrate both technical competence and
 Interests: Molecular aging | Bioinformatics | Translational health research
 
 ---
-
-## License
-
-MIT License — feel free to use, modify, and cite appropriately.
