@@ -92,10 +92,10 @@ at **University Medicine Rostock**, to demonstrate both technical competence and
 ## Author
 
 **Maruf Hasan**  
-🔬 Interests: Molecular aging | Bioinformatics | Translational health research
+Interests: Molecular aging | Bioinformatics | Translational health research
 
 ---
 
-## 📜 License
+## License
 
 MIT License — feel free to use, modify, and cite appropriately.
