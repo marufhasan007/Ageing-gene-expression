@@ -1,4 +1,4 @@
-# 🧬 Aging Gene Expression Analysis with R
+# Aging Gene Expression Analysis with R
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project investigates aging-associated changes in gene expression using huma
 
 ---
 
-## 📊 Dataset and Tools
+## Dataset and Tools
 
 - **Dataset**: [GSE11882](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11882) – Gene expression profiles from young vs. old human tissues (GEO database)
 - **Tools & Libraries**:
@@ -20,7 +20,7 @@ This project investigates aging-associated changes in gene expression using huma
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - Identify **differentially expressed genes (DEGs)** associated with aging.
 - Conduct **GO enrichment analysis** to highlight impacted biological pathways.
@@ -28,7 +28,7 @@ This project investigates aging-associated changes in gene expression using huma
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 aging-gene-expression-analysis/
@@ -40,7 +40,7 @@ aging-gene-expression-analysis/
 
 ---
 
-## 🔁 Reproducibility Instructions
+## Reproducibility Instructions
 
 1. **Install dependencies** in R:
 ```r
@@ -61,7 +61,7 @@ source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
 
 ---
 
-## 📂 Outputs
+## Outputs
 
 - `DEGs.csv`: Table of differentially expressed genes
 - `GO_enrichment.csv`: Enriched GO biological processes
@@ -70,7 +70,7 @@ source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
 
 ---
 
-## 🔬 Key Findings
+## Key Findings
 
 - Aging is associated with significant transcriptomic alterations across tissues.
 - Enrichment in pathways related to:
@@ -81,7 +81,7 @@ source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
 
 ---
 
-## 🧠 Purpose
+## Purpose
 
 This project was developed in the context of my application to the  
 **Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA)**  
@@ -89,10 +89,9 @@ at **University Medicine Rostock**, to demonstrate both technical competence and
 
 ---
 
-## 👤 Author
+## Author
 
 **Maruf Hasan**  
-📧 mhasanmaruf@gmail.com  
 🔬 Interests: Molecular aging | Bioinformatics | Translational health research
 
 ---
