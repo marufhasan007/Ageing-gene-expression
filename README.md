@@ -1,11 +1,11 @@
 🧬 Aging Gene Expression Analysis with R
 
-<h3> **Overview** <h3>
+<h3>Overvie<h3>
 
 This project investigates aging-associated changes in gene expression using human transcriptomic data. Applying a reproducible R-based bioinformatics pipeline, it identifies differentially expressed genes (DEGs) and performs gene ontology (GO) enrichment analysis to uncover biological processes related to aging. The analysis aligns with current research interests in longevity, healthspan, and intervention analytics.
 
-**📊 Dataset and Tools
-**
+📊 Dataset and Tools
+
 Dataset: GSE11882 – Gene expression profiles from young vs. old human tissues (GEO database)
 Tools & Libraries:
 R (v4.3 or later)
@@ -15,8 +15,8 @@ limma
 EnhancedVolcano
 clusterProfiler
 org.Hs.eg.db
-**🎯 Goals
-**
+🎯 Goals
+
 Identify differentially expressed genes (DEGs) associated with aging.
 Conduct GO enrichment analysis to highlight impacted biological pathways.
 Create visualizations for effective scientific communication and publication-ready figures.
@@ -60,12 +60,12 @@ This project was developed in the context of my application to the
 Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA)
 at University Medicine Rostock, to demonstrate both technical competence and genuine interest in aging and longevity research using bioinformatics and AI.
 
-👤 **Author**
+👤 Author
 
 Maruf Hasan
 📧 mhasanmaruf@gmail.com
 🔬 Interests: Molecular aging | Bioinformatics | Translational health research
 
-📜 **License**
+📜 License
 
 MIT License — feel free to use, modify, and cite appropriately.
