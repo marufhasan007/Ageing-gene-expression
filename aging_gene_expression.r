@@ -1,6 +1,6 @@
 # Aging Gene Expression Analysis Using R
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 aging-gene-expression-analysis/
@@ -12,14 +12,14 @@ aging-gene-expression-analysis/
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - R ≥ 4.0
 - Bioconductor packages: `GEOquery`, `Biobase`, `limma`, `EnhancedVolcano`, `clusterProfiler`, `org.Hs.eg.db`
 
 ---
 
-## 📥 01_data_download.R
+## 01_data_download.R
 
 ```r
 # 01_data_download.R
@@ -44,7 +44,7 @@ save(expr_data, pheno_data, file = "data/processed_data.RData")
 
 ---
 
-## 📊 02_DEG_analysis.R
+## 02_DEG_analysis.R
 
 ```r
 # 02_DEG_analysis.R
@@ -84,7 +84,7 @@ EnhancedVolcano(results,
 
 ---
 
-## 🧠 03_GO_enrichment.R
+## 03_GO_enrichment.R
 
 ```r
 # 03_GO_enrichment.R
@@ -119,7 +119,7 @@ barplot(ego, showCategory = 20)
 
 ---
 
-## 📊 Example Outputs
+## Example Outputs
 
 - `results/DEGs.csv`: List of all DEGs with statistics.
 - `results/GO_enrichment.csv`: Top enriched GO terms.
@@ -128,26 +128,20 @@ barplot(ego, showCategory = 20)
 
 ---
 
-## 🔍 Dataset Info
+## Dataset Info
 
 - **GEO Accession:** [GSE11882](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11882)
 - **Study:** Gene expression in young and old human tissues to understand aging.
 
 ---
 
-## 👨‍🔬 Author
+## Author
 
 **Maruf Hasan**  
 GitHub: [https://github.com/marufhasan007]
 
 ---
 
-## 🧠 Purpose
+## Purpose
 
-This project was built to demonstrate bioinformatics proficiency and domain interest in aging/longevity research, particularly in the context of a postdoctoral application to the Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA), University Medicine Rostock.
-
----
-
-## 📜 License
-
-MIT License – Feel free to use, modify, and cite this project.
+This project was built to demonstrate bioinformatics proficiency and domain interest in aging/longevity research.
