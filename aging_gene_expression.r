@@ -138,7 +138,6 @@ barplot(ego, showCategory = 20)
 ## 👨‍🔬 Author
 
 **Maruf Hasan**  
-Email: [mhasanmaruf@gmail.com]  
 GitHub: [https://github.com/marufhasan007]
 
 ---
