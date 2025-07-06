@@ -1,62 +1,71 @@
-Aging Gene Expression Analysis with R
+🧬 Aging Gene Expression Analysis with R
+
 Overview
 
-This project explores aging-associated differential gene expression and functional enrichment using human transcriptomic data from the GEO database. 
-It applies traditional bioinformatics pipelines and demonstrates reproducible analysis in R, aligning with the research interests of longevity and healthspan.
+This project investigates aging-associated changes in gene expression using human transcriptomic data. Applying a reproducible R-based bioinformatics pipeline, it identifies differentially expressed genes (DEGs) and performs gene ontology (GO) enrichment analysis to uncover biological processes related to aging. The analysis aligns with current research interests in longevity, healthspan, and intervention analytics.
 
-Dataset and Tools
+📊 Dataset and Tools
 
-- Dataset: GSE11882 – Human tissues from young vs. old individuals.
-- Tools: R, Bioconductor packages (limma, EnhancedVolcano, clusterProfiler, org.Hs.eg.db)
-- Goals:
-  - Identify differentially expressed genes (DEGs) in aging
-  - Perform GO enrichment analysis to reveal biological processes involved
-  - Visualize findings for scientific communication
+Dataset: GSE11882 – Gene expression profiles from young vs. old human tissues (GEO database)
+Tools & Libraries:
+R (v4.3 or later)
+Bioconductor packages:
+GEOquery
+limma
+EnhancedVolcano
+clusterProfiler
+org.Hs.eg.db
+🎯 Goals
 
-Repository Structure
+Identify differentially expressed genes (DEGs) associated with aging.
+Conduct GO enrichment analysis to highlight impacted biological pathways.
+Create visualizations for effective scientific communication and publication-ready figures.
+📁 Repository Structure
 
 aging-gene-expression-analysis/
-├── data/                   # Processed expression and metadata
-├── results/                # DEGs, GO enrichment, plots
-├── scripts/                # R scripts for reproducible analysis
-├── README.md               # Project overview
+├── data/             # Processed expression data and sample metadata
+├── results/          # DEG lists, GO enrichment results, plots
+├── scripts/          # Modular R scripts for each analysis step
+├── README.md         # Project overview and instructions
+🔁 Reproducibility Instructions
 
-Reproducibility Instructions
+Install dependencies in R:
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(c(
+  "GEOquery", "limma", "EnhancedVolcano",
+  "clusterProfiler", "org.Hs.eg.db"
+))
+Run scripts in sequence:
+source("scripts/01_data_download.R")     # Download and process GEO data
+source("scripts/02_DEG_analysis.R")      # Perform differential gene expression analysis
+source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
+📂 Outputs
 
-1. Install dependencies:
-```r
-if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-BiocManager::install(c("GEOquery", "limma", "EnhancedVolcano", "clusterProfiler", "org.Hs.eg.db"))
-```
+DEGs.csv: Table of differentially expressed genes
+GO_enrichment.csv: Enriched GO biological processes
+volcano_plot.png: Volcano plot of DEGs
+GO_barplot.png: Barplot of top GO terms
+🔬 Key Findings
 
-2. Run scripts in order:
-```r
-source("scripts/01_data_download.R")
-source("scripts/02_DEG_analysis.R")
-source("scripts/03_GO_enrichment.R")
-```
+Aging is associated with significant transcriptomic alterations across tissues.
+Enrichment in pathways related to:
+Immune regulation
+Oxidative stress response
+Cellular senescence
+Results support known hallmarks of aging and provide insights for potential interventions.
+🧠 Purpose
 
-Outputs
+This project was developed in the context of my application to the
+Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA)
+at University Medicine Rostock, to demonstrate both technical competence and genuine interest in aging and longevity research using bioinformatics and AI.
 
-- DEGs.csv: Differentially expressed genes
-- GO_enrichment.csv: Enriched biological processes (GO terms)
-- Volcano plot and GO barplot for publication-ready figures
-
-Key Findings
-
-- Significant transcriptomic changes associated with age
-- Enrichment in biological processes such as immune regulation, oxidative stress response, and cellular senescence
-
-Purpose
-
-This project was prepared as part of my application to the Institute for Biostatistics and Informatics in Medicine and Ageing Research (IBIMA) at 
-University Medicine Rostock to demonstrate technical competence and interest in longevity science.
-
-Author
+👤 Author
 
 Maruf Hasan
-Email: mhasanmaruf@gmail.com
-Interested in molecular aging, bioinformatics, and translational health research
+📧 mhasanmaruf@gmail.com
+🔬 Interests: Molecular aging | Bioinformatics | Translational health research
 
-License
-MIT License – use freely with citation.
+📜 License
+
+MIT License — feel free to use, modify, and cite appropriately.
