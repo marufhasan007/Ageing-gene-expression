@@ -90,6 +90,6 @@ This project was developed in the context of my application to demonstrate both 
 ## Author
 
 **Maruf Hasan**  
-Interests: Molecular aging | Bioinformatics | Translational health research
+*Interests: Aging biology | Bioinformatics | Healthspan modeling | Translational research*
 
 ---
