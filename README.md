@@ -79,11 +79,6 @@ source("scripts/03_GO_enrichment.R")     # Run functional enrichment analysis
   - **Cellular senescence**
 - Results support known hallmarks of aging and provide insights for potential interventions.
 
----
-
-## Purpose
-
-This project was developed in the context of my application to demonstrate both technical competence and genuine interest in **aging and longevity research** using bioinformatics and AI.
 
 ---
 
